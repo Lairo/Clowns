@@ -30,14 +30,5 @@ namespace Clowns
         }
     }
 
-    class Clown
-    {
-        public string Name;
-        public int Height;
-
-        public void TalkAboutYourself()
-        {
-            Console.WriteLine($"My name is {Name} and I am {Height} inches tall.");
-        }
-    }
+    
 }
